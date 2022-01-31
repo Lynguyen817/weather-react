@@ -8,8 +8,8 @@ import "./Search.css";
 import "./index.css";
 
 
-export default function Search(props) {
-  const [city,setCity]= useState(props.defaultCity);
+export default function Search() {
+  const [city,setCity]= useState(null);
   const [weather, setWeather] = useState(null);
 
   function updateCity(event) {
