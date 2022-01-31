@@ -1,0 +1,51 @@
+.searchForm {
+  font-family: "Architects Daughter", cursive;
+}
+.btn {
+  background: #007bff;
+  padding: 4px 25px;
+  color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 20px;
+  margin: 0 20px;
+}
+form {
+  margin-top: 25px;
+}
+.weather {
+  font-family: "Architects Daughter", cursive;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.weather h1 {
+  font-size: 90px;
+  margin: 10px auto;
+  color: red;
+}
+.weather h2 {
+  font-size: 60px;
+  color: red;
+}
+.weather h3 {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-top: -28px;
+}
+.weather h6 {
+  font-size: 25px;
+  color: gray;
+}
+.units {
+  font-size: 25px;
+  position: relative;
+  top: -45px;
+  left: 60px;
+}
+.units a {
+  text-decoration: none;
+  color: red;
+}
+.units a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
