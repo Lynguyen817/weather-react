@@ -3,7 +3,6 @@ import axios from "axios";
 import DateAndTime from "./DateAndTime";
 import CelciusFahrenheit from "./CelciusFahrenheit";
 
-
 import "./Search.css";
 import "./index.css";
 
