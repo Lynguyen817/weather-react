@@ -12,3 +12,7 @@
   border-radius: 5px;
   box-shadow: 2px 6px 4px 4px gray;
 }
+h1 {
+  font-family: "Architects Daughter", cursive;
+  color: red;
+}

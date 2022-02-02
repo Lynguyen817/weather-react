@@ -2,14 +2,15 @@ import React , {useState}from"react";
 
 export default function CelciusFahrenheit(props){
   const [unit,setUnit]= useState(null);
-  function showFahrenheit(event) {
-    event.preventDefault();
-    setUnit(Math.round((props.temperature * 9) / 5 + 32));
-  }
   function showCelsius(event) {
     event.preventDefault();
-    setUnit(props.temperature);
+    setUnit(props.data.temperature);
   }
+  function showFahrenheit(event) {
+    event.preventDefault();
+    setUnit(Math.round(props.data.temperature * 9) / 5 + 32);
+  }
+  
   return (
     <div >
     {unit}

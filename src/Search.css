@@ -7,7 +7,7 @@
   color: #fff;
   border: 1px solid #007bff;
   border-radius: 20px;
-  margin: 0 20px;
+  margin: 0 10px;
 }
 form {
   margin-top: 25px;
@@ -19,7 +19,7 @@ form {
 }
 .weather h1 {
   font-size: 90px;
-  margin: 10px auto;
+  margin-bottom: 2px;
   color: red;
 }
 .weather h2 {
@@ -29,17 +29,21 @@ form {
 .weather h3 {
   font-size: 40px;
   text-transform: capitalize;
-  margin-top: -28px;
+  margin-top: -112px;
+  color: #343a40;
 }
 .weather h6 {
   font-size: 25px;
   color: gray;
 }
+.icon {
+  margin-right: 10px;
+}
 .units {
   font-size: 25px;
   position: relative;
-  top: -45px;
-  left: 60px;
+  top: -150px;
+  left: 110px;
 }
 .units a {
   text-decoration: none;
