@@ -30,8 +30,7 @@ export default function Search() {
           <h6> <DateAndTime/></h6>
           <h1>
           <WeatherIcon code={icon}/>
-          {temperature}
-          <CelciusFahrenheit/>
+          <CelciusFahrenheit unit={temperature}/>
           </h1>
           <h3> {description} </h3>
           <h6>

@@ -29,7 +29,7 @@ form {
 .weather h3 {
   font-size: 40px;
   text-transform: capitalize;
-  margin-top: -112px;
+  margin-top: 2px;
   color: #343a40;
 }
 .weather h6 {
@@ -42,8 +42,8 @@ form {
 .units {
   font-size: 25px;
   position: relative;
-  top: -150px;
-  left: 110px;
+  top: -30px;
+  left: 6px;
 }
 .units a {
   text-decoration: none;
@@ -52,4 +52,7 @@ form {
 .units a:hover {
   text-decoration: underline;
   color: #007bff;
+}
+.number {
+  font-size: 90px;
 }

@@ -1,29 +1,31 @@
 import React , {useState}from"react";
-
+import "./Search.css";
 export default function CelciusFahrenheit(props){
   const [unit,setUnit]= useState(null);
   function showCelsius(event) {
     event.preventDefault();
-    setUnit(props.data.temperature);
+    setUnit(props.unit);
   }
   function showFahrenheit(event) {
     event.preventDefault();
-    setUnit(Math.round(props.data.temperature * 9) / 5 + 32);
+    setUnit(Math.round((props.unit * 9) / 5 + 32));
   }
   
   return (
-    <div >
-    {unit}
+    <span>{unit}
       <span className="units">
+        
       <a href="/" onClick={showCelsius}>
-        °C
+        {" "}°C
       </a>{" "}
       | {" "}
        <a href="/" onClick={showFahrenheit}>
         °F
       </a>
       </span>
-    </div>
+    </span>
+      
+  
   );
 }
 
