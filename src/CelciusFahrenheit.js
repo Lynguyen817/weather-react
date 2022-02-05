@@ -1,7 +1,7 @@
 import React , {useState}from"react";
 import "./Search.css";
 export default function CelciusFahrenheit(props){
-  const [unit,setUnit]= useState(null);
+  const [unit,setUnit]= useState(props.unit);
   function showCelsius(event) {
     event.preventDefault();
     setUnit(props.unit);
@@ -13,8 +13,7 @@ export default function CelciusFahrenheit(props){
   
   return (
     <span>{unit}
-      <span className="units">
-        
+      <span className="units">  
       <a href="/" onClick={showCelsius}>
         {" "}°C
       </a>{" "}

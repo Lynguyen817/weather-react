@@ -23,6 +23,7 @@ export default function Search() {
     const wind  =response.data.wind.speed;
     const description  =response.data.weather[0].description;
     const icon  =response.data.weather[0].icon;
+    const coordinates = response.data.coord;
 
      setWeather(
       <div className="weather">
@@ -30,6 +31,7 @@ export default function Search() {
           <h6> <DateAndTime/></h6>
           <h1>
           <WeatherIcon code={icon}/>
+        
           <CelciusFahrenheit unit={temperature}/>
           </h1>
           <h3> {description} </h3>
@@ -38,6 +40,7 @@ export default function Search() {
             <br />
              Wind : {wind}  km/h
           </h6>
+          <weatherForecast coordinates={coordinates}/>
       </div>
       );
      }
