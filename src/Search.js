@@ -3,6 +3,7 @@ import axios from "axios";
 import DateAndTime from "./DateAndTime";
 import CelciusFahrenheit from "./CelciusFahrenheit";
 import WeatherIcon from "./WeatherIcon";
+import WeatherForecast from "./WeatherForecast";
 
 import "./Search.css";
 import "./index.css";
@@ -40,7 +41,7 @@ export default function Search() {
             <br />
              Wind : {wind}  km/h
           </h6>
-          <weatherForecast coordinates={coordinates}/>
+          <WeatherForecast coordinates={coordinates}/>
       </div>
       );
      }
