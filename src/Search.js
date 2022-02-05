@@ -31,7 +31,7 @@ export default function Search() {
           <h2>{city} </h2>
           <h6> <DateAndTime/></h6>
           <h1>
-          <WeatherIcon code={icon}/>
+          <WeatherIcon code={icon} size={80}/>
         
           <CelciusFahrenheit unit={temperature}/>
           </h1>
