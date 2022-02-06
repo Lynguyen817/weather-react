@@ -11,3 +11,9 @@
   margin-left: 10px;
   opacity: 0.5;
 }
+.WeatherForecast .border {
+  background-color: #59a4f5;
+  margin: 6px;
+  max-width: 90px;
+  border-radius: 33px;
+}
