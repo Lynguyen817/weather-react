@@ -13,7 +13,13 @@
 }
 .WeatherForecast .border {
   background-color: #59a4f5;
-  margin: 6px;
-  max-width: 90px;
+  margin: 4px;
+  max-width: 76px;
   border-radius: 33px;
+}
+@media (max-width: 900px) {
+  .WeatherForecast .row {
+    display: flex;
+    justify-content: center;
+  }
 }
