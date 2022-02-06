@@ -29,7 +29,7 @@ export default function Search() {
      setWeather(
       <div className="weather">
           <h2>{city} </h2>
-          <h6> <DateAndTime/></h6>
+          <h5> <DateAndTime/></h5>
           <h1>
           <WeatherIcon code={icon} size={80}/>
         

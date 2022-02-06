@@ -32,6 +32,10 @@ form {
   margin-top: 2px;
   color: #343a40;
 }
+.weather h5 {
+  font-size: 23px;
+  color: gray;
+}
 .weather h6 {
   font-size: 25px;
   color: gray;
