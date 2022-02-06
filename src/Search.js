@@ -1,7 +1,7 @@
 import React , {useState} from "react";
 import axios from "axios";
 import DateAndTime from "./DateAndTime";
-import CelciusFahrenheit from "./CelciusFahrenheit";
+import Temperature from "./Temperature";
 import WeatherIcon from "./WeatherIcon";
 import WeatherForecast from "./WeatherForecast";
 
@@ -33,7 +33,7 @@ export default function Search() {
           <h1>
           <WeatherIcon code={icon} size={80}/>
         
-          <CelciusFahrenheit unit={temperature}/>
+          <Temperature unit={temperature}/>
           </h1>
           <h3> {description} </h3>
           <h6>
