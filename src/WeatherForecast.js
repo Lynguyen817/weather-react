@@ -20,7 +20,7 @@ export default function WeatherForecast(props){
         <div className= "WeatherForecast">
             <div className="row">
                 {forecast.map(function(formatDay,index){
-                    if (index < 5){
+                    if (index < 6){
                         return (
                             <div className = "col border border-primary" key={index}>
                                 <WeatherForecastDay data={formatDay}/>
