@@ -45,7 +45,7 @@ if (minutes < 10) {
 if (TwentyFourHour < 12){
   mid = "am";
 }
-return <h6>
+return <h5>
   {day},{month} {date}, {year} <br/> {hours} : {minutes} {mid}
-</h6>;
+</h5>;
 }
