@@ -5,11 +5,11 @@ import "./WeatherForecast.css";
 export default function WeatherForecastDay(props){
     function maxTemperature(){
         let maxtemperature = Math.round(props.data.temp.max);
-        return `${maxtemperature} °`;
+        return `${maxtemperature}°`;
     }
     function minTemperature(){
         let mintemperature = Math.round(props.data.temp.min);
-        return `${mintemperature} °`;
+        return `${mintemperature}°`;
     }
     function formatDay(){
     let date = new Date(props.data.dt * 1000);
@@ -28,8 +28,8 @@ return(
         <div className = "forecast-day">{formatDay()}</div>
         <WeatherIcon code={props.data.weather[0].icon} size={35}/>
         <div className="forecast-temperature">
-            <span className="forecast-temperature-max">{maxTemperature}</span>
-            <span className="forecast-temperature-min">{minTemperature}</span>
+            <span className="forecast-temperature-max">{maxTemperature()}</span>
+            <span className="forecast-temperature-min">{minTemperature()}</span>
         </div>
     </div>
 );

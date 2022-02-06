@@ -1,9 +1,13 @@
-.forecast-temperature {
-  font-size: 15px;
+.WeatherForecast {
+  margin-top: 25px;
+}
+.WeatherForecast .forecast-temperature {
+  font-size: 22px;
   line-height: 1.5;
   color: red;
   font-weight: bold;
 }
-.WeatherForecastDay .forecast-icon {
-  font-size: 15px;
+.forecast-temperature-min {
+  margin-left: 10px;
+  opacity: 0.5;
 }
