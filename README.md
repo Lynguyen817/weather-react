@@ -1,3 +1,18 @@
+# Weather App
+A web application that allows users to search for weather information for a specific city. This app provides real-time weather data, including temperature, humidity, wind speed, weather description, and a 5-day weather forecast.
+
+# Dependencies
+This project uses the following dependencies:
+
+- React: A JavaScript library for building user interfaces.
+- Axios: A promise-based HTTP client for making API requests.
+- Bootstrap: A popular CSS framework for styling the application.
+  
+# Features
+- Search for weather information for a specific city.
+- View real-time temperature, humidity, wind speed, and weather description.
+- Display a 5-day weather forecast with daily details.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
